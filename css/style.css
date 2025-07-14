@@ -13,7 +13,7 @@ body{
   font-size: large;
   padding-left: 5%;
 }
-#addbanana {
+.Button {
     justify-self: left;
     border-radius: 30px;
 }
