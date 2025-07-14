@@ -1,3 +1,4 @@
+//Main class
 class Smoothie {
     ingredients = [];
     size;
@@ -10,9 +11,10 @@ class Smoothie {
         this.ingredients.push(ingredient);
     }
 }
-
+//Initialize the class
 let smoothie = new Smoothie("Medium");
 
+//Pointers to HTML stuff
 const output = document.querySelector("#output");
 
 const small = document.querySelector("#small");
@@ -25,6 +27,7 @@ const addchocolate = document.querySelector("#addchocolate");
 
 const order = document.querySelector("#order");
 
+//Click events 
 small.addEventListener("click", setSmall)
 medium.addEventListener("click", setMedium)
 large.addEventListener("click", setLarge)
@@ -35,6 +38,8 @@ addstrawberry.addEventListener("click", strawberry)
 addchocolate.addEventListener("click", chocolate)
 
 order.addEventListener("click", setOutput)
+
+//Functions
 function setOutput()
 {
     output.textContent = "Your smoothie is " + smoothie.size + ", containing " + smoothie.ingredients.join();
