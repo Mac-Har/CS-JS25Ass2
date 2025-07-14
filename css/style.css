@@ -1,0 +1,19 @@
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1;
+}
+
+/*Credit to https://stackoverflow.com/questions/39325414/line-break-in-html-with-n*/
+#output {
+  white-space: pre-line;
+  background-color: lightyellow;
+  max-width: 40%;
+  border-radius: 30px;
+  font-size: large;
+  padding-left: 5%;
+}
+#addbanana {
+    justify-self: left;
+    border-radius: 30px;
+}
