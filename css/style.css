@@ -16,4 +16,6 @@ body{
 .Button {
     justify-self: left;
     border-radius: 30px;
+    background-color: aliceblue;
+    max-width: 20%;
 }
